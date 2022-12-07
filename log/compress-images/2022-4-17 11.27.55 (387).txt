@@ -1,0 +1,7 @@
+File from: [images/*/**.{jpg, JPG, JPEG, jpeg, png}]
+
+File to: [-]
+
+Compression algorithm: [-]
+
+Description:  Directory is empty!: 
