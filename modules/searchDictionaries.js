@@ -12,7 +12,9 @@ async function search(req, response) {
       return response.status(200).json(cache[req.params.word + req.params.api + req.params.limit]);
 
    const dir_i = dir + `dic/${api}/${word.shift()}.json`;
-    let root = await JSON.parse(await readFile(dir_i, "utf8"));
+console.log('dir->', dir_i)
+   let root = await JSON.parse(await readFile(dir_i, "utf8"));
+   console.log('root', root);
     let temp_root = root;
     let path = word.length;
     let results = [];
