@@ -40,6 +40,7 @@ console.log('dir->', dir_i)
     results.length ? response.status(200).json(results) : response.sendStatus(404);
     cache[req.params.word + req.params.api + req.params.limit] = results;
   } catch (error) {
+    console.log('error', error);
     response.sendStatus(404);
   }
 }
