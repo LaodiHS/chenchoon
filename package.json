@@ -24,7 +24,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node javascript_server/app.js"
+    "start":"node javascript_server/app.js",
+    "testing": "nodemon javascript_server/app.js"
   },
   "author": "",
   "license": "ISC",

@@ -25,6 +25,7 @@ function work() {
         name: "home",
         id: "",
         template: `<ul>
+      
                 <li>
                 <figure>
                     <img src="9.jpg" alt="image 1">
@@ -110,7 +111,7 @@ function work() {
                 <p>Real-time Server Side Communication</p> 
                 <p>Mobile Compliant</p>
                 <p>Real-time Error Handling</p>
-                <a href="https://live-interactive-code-editor.herokuapp.com/" name="codeEditor">Live Code Editor</a>
+                <a href="https://code-editor-2p70.onrender.com" name="codeEditor">Live Code Editor</a>
                 </li>
                 <li>
                 <figure>
