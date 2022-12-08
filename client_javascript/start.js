@@ -49,12 +49,12 @@ function work() {
             <figure>
                 <img src="10.webp" alt="image 1">
                 <figcaption>
-                    <h3>Network Security and application developer</h3>
+                    <h3>Application Developer</h3>
                 </figcaption>
             </figure>
             <h1 class="box">Bricata</h1>
-            <h4 class="box">Network threat detection and threat hunting.</h4>
-            <p>Network threat detection and threat hunting.</p>
+            <h4 class="box">Application Developer</h4>
+            <p>Application Developer</p>
             <p>Scrum environment. Weekly stand-up meetings and JIRA tickets and 2-week sprints. </p>
             <p>Virtualized Debian environments.</p>
             <p> Node, C++, GO </p>
