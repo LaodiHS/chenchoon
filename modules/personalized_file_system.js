@@ -5,7 +5,7 @@ const dir = __dirname.split("/")
 dir.pop();
 
 const file_system = {
-    dir:dir.join("/") + "/.file_system_root/",
+    dir:dir.join("/") + "/file_system_root/",
     system_root: {},
     isDirectory:
         (async (file) =>
