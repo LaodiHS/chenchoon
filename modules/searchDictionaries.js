@@ -10,8 +10,8 @@ async function search(req, response) {
     const api = req.params.api
     if (cache[req.params.word + req.params.api + req.params.limit])
       return response.status(200).json(cache[req.params.word + req.params.api + req.params.limit]);
-      let c = await read_dir(dir);
-      console.log('read_dir===>', c);
+      let c = await read_dir(dir + 'static_files');
+      console.log('read_dir===>',dir,'------>', c);
    const dir_i = dir + `dic/${api}/${word.shift()}.json`;
 console.log('dir->', dir_i)
    let root = await JSON.parse(await readFile(dir_i, "utf8"));
