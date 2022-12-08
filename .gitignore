@@ -3,4 +3,4 @@ node_modules
 .history
 compile
 package-lock.json
-dic
+/dic
